@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  background-color: black;
 }
 .full {
   height: 100vh;
@@ -10,10 +11,14 @@ body {
   background-position: center;
   background-size: auto 100%;
   background-repeat: no-repeat;
+  filter: sepia(50%);
+  transition: all 0.7s;
 }
 #off {
   background: url(backgrounds/off.jpg);
   background-position: center;
   background-size: auto 100%;
   background-repeat: no-repeat;
+  filter: sepia(0%) brightness(10%);
+  transition: all 0.7s;
 }
